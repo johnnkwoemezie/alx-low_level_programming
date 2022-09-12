@@ -1,17 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers from 0 to 9.
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+	int d = 48;
 
-	for (i = 0; i < 10; i++)
+	while (d < 58)
 	{
-		printf("%d", i);
+		putchar(d);
+		d++;
 	}
 	putchar('\n');
+
 	return (0);
+}
