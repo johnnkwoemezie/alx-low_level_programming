@@ -1,3 +1,4 @@
+
 #include "main.h"
 
 /**
@@ -13,4 +14,3 @@ void print_alphabet(void)
 		_putchar(i);
 	}
 	_putchar('\n');
-}
